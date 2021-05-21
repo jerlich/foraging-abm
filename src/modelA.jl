@@ -79,7 +79,7 @@ function init_modelA(;
     forager_ns=[30, 30],
     μ_logαs=[log(0.01), log(0.01)], σ_logαs=[0.3, 0.3],
     μ_logρs=[log(0.9), log(0.9)], σ_logρs=[0.03, 0.03],
-    μ_logβs=[log(0.72), log(0.72)], σ_logβs=[0.8, 0.8],
+    μ_logβs=[log(3), log(3)], σ_logβs=[0.8, 0.8],
     patch_n=50,
     μ_base=6,
     capacity=sum(forager_ns)/2,
